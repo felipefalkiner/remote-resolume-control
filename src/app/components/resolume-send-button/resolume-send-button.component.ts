@@ -3,24 +3,21 @@ import { ResolumeService } from 'src/app/services/resolume.service';
 
 
 @Component({
-  selector: 'app-osc-button',
-  templateUrl: './osc-button.component.html',
-  styleUrls: ['./osc-button.component.css']
+  selector: 'app-resolume-send-button',
+  templateUrl: './resolume-send-button.component.html',
+  styleUrls: ['./resolume-send-button.component.css']
 })
 export class OscButtonComponent implements OnInit {
 
 
   @Input() column:number = 0
   @Input() name:string = 'Default'
-
-
-  
   
   constructor(private resolume:ResolumeService) {
    }
 
   ngOnInit(): void {
-    
+    // console.log(os.hostname)
   }
 
   sendOSC(layer:number){

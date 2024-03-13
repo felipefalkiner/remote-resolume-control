@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  resolume: 'https://resolume.felipefalkiner.xyz/api/'
+  resolume: 'http://192.168.10.2:8080/api/'
 };

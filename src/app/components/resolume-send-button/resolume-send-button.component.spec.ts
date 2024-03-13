@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OscButtonComponent } from './osc-button.component';
+import { OscButtonComponent } from './resolume-send-button.component';
 
 describe('OscButtonComponent', () => {
   let component: OscButtonComponent;
