@@ -12,7 +12,8 @@ export class OscButtonComponent implements OnInit {
 
   @Input() column:number = 0
   @Input() name:string = 'Default'
-  
+  @Input() image:string = ''
+    
   constructor(private resolume:ResolumeService) {
    }
 
