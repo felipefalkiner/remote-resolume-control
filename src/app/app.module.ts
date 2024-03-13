@@ -4,11 +4,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OscButtonComponent } from './components/resolume-send-button/resolume-send-button.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OscButtonComponent
+    OscButtonComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
